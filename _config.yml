@@ -13,13 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cybervoid
-email:
+title: Ruben's Blog
+email: ruben.poghosyan@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Gold
-twitter_username: username
+  Within the boundless expanses of the internet and the libraries,
+  an ocean of information unfolds, and only the victorious are those
+  who wield the prowess to extract and unveil the golden treasures
+  concealed within its profound depths. I strives to deliver genuine value,
+  eschewing suboptimal and repetitive content in its pursuit of meaningful contributions.
 github_username: ruben-poghosyan
-minimal_mistakes_skin: default
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
@@ -29,7 +32,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Yerevan
 
 include:
   - _pages
@@ -58,32 +61,17 @@ plugins:
 author:
   name   : "Ruben Poghosyan"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I Put Faith In My Own Convictions As To What I Believe Is Right, And Consider Them To Be Righteous"
+  bio    : "Artificial intelligence is the key to unlocking the vast potential of data in today's world"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://ruben-poghosyan.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ruben-poghosyan"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/ruben-poghosyan"
 
 defaults:
   # _posts
