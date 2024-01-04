@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   concealed within its profound depths. I strives to deliver genuine value,
   eschewing suboptimal and repetitive content in its pursuit of meaningful contributions.
 github_username: ruben-poghosyan
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
