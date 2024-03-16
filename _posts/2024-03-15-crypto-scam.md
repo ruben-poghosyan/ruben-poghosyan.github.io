@@ -17,7 +17,7 @@ A recent example, advertised as **"How to Use Slippage MEV by ChatGPT and make 0
 Below is a brief compilation highlighting key moments where the actor strategically employs psychological techniques. These instances feature statements such as "Before we delve into the nitty-gritty, let's address the prevalent issue of scammers in the crypto world," and "A crucial point to note for efficiency is how this approach can significantly reduce future gas costs"
 prompting viewers to hastily navigate through the "tutorial" steps.
 
-<video src="/assets/images/2024-03-15-crypto-scam/scam.mp4" width="100%" controls></video>
+<video src="/assets/images/2024-03-15-crypto-scam/scam.mp4" width="100%" controls autoplay></video>
 
 
 Indeed, whether the individual in the video is the scammer or simply a hired actor is a separate matter for discussion. For now, let's focus on the deceptive nature of the video and its potential to mislead viewers with promises of financial gain.
@@ -44,7 +44,7 @@ This function ingeniously constructs the genuine ETH address of the scammer thro
 
 Searching for the first address, we find that the address indeed exists [https://etherscan.io/address/0x136804cfd9bee12de334e2b7e7aecdf98cb9f2c9](https://etherscan.io/address/0x136804cfd9bee12de334e2b7e7aecdf98cb9f2c9)
 
-One can see that there are incoming transactions made to this address with various amounts of ETH which are probably the victims of the scheme.
+One can see that there are inbound transactions made to this address with various amounts of ETH which are probably the victims of the scheme.
 ![Transactions](/assets/images/2024-03-15-crypto-scam/transactions.png)
 
-Furthermore by following the chains of outbout transactions made from this address we arrive to a popular [dark web exchange platform](https://etherscan.io/address/0xf1da173228fcf015f43f3ea15abbb51f0d8f1123) after which it's hard to trace the transactions.
+Furthermore by following the chains of outbound transactions made from this address we arrive to a popular [dark web exchange platform](https://etherscan.io/address/0xf1da173228fcf015f43f3ea15abbb51f0d8f1123) after which it's hard to trace the transactions.
