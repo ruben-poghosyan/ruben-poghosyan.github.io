@@ -14,14 +14,18 @@ Let's solve the following physics problem
 We are given $$R = 1m\Omega \:$$, $$L = \text{OA} = 10 \text{cm} \:$$ and the frequency at which the rod rotates is $\nu = 60 \text{Hz}$, we need to find the electric current induced in this circuit denoted as $$I(t)$$
 
 Let's start by writing the laws for induction, from Faraday's law we have
+
 $$U = \frac{\Delta \Phi}{\Delta t}$$
+
 So a change of magnetic flux generates an electromotive force which produces electric current
+
 $$I = U/R$$
 
-Now we need to find $U$, for that reason we need to figure out $\Delta \Phi$, which is the change of magnetic flux, but before that let's write down the definition of magnetic flux, in our case since the surface vector and the magnetic field vector are always parallel aka $\theta = 0$ we find that 
+Now we need to find $$U$$, for that reason we need to figure out $$\Delta \Phi$$, which is the change of magnetic flux, but before that let's write down the definition of magnetic flux, in our case since the surface vector and the magnetic field vector are always parallel aka $$\theta = 0$$ we find that
+
 $$ \Phi = \vec{B} \cdot \vec{S} = B \cdot S \cos(\theta) = B \cdot S$$
 
-Now let's write figure out $\Phi$ explicitly at times $t$ and $t+\Delta t$
+Now let's figure out $$\Phi$$ explicitly at times $$t$$ and $$t+\Delta t$$
 $$\Delta \Phi = \Phi(t+\Delta t) - \Phi (t) = B \cdot (S(t + \Delta t) - S(t))$$
 
 It follows
