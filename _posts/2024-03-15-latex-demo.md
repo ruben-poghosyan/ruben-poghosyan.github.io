@@ -11,7 +11,7 @@ Let's solve the following physics problem
 
 ![Problem](/assets/images/2024-03-15-latex-demo/problem.png)
 
-We are given $$R = 1m\Omega \:$$, $$L = \text{OA} = 10 \text{cm} \:$$ and the frequency at which the rod rotates is $\nu = 60 \text{Hz}$, we need to find the electric current induced in this circuit denoted as $I(t)$
+We are given $$R = 1m\Omega \:$$, $$L = \text{OA} = 10 \text{cm} \:$$ and the frequency at which the rod rotates is $\nu = 60 \text{Hz}$, we need to find the electric current induced in this circuit denoted as $$I(t)$$
 
 Let's start by writing the laws for induction, from Faraday's law we have
 $$U = \frac{\Delta \Phi}{\Delta t}$$
@@ -28,12 +28,18 @@ It follows
 
 $$U = B  \frac{ (S(t + \Delta t) - S(t))}{\Delta t} = B \cdot \frac{d S(t)}{d t} $$
 
-so we just need to find the derivative of $S(t)$
-$$ S(t) = \frac{1}{2} L^2 \tan(2\pi\nu t) $$
+so we just need to find the derivative of $$S(t)$$
+
+$$ 
+S(t) = \frac{1}{2} L^2 \tan(2\pi\nu t) 
+$$
 
 $$
 \frac{d S(t)}{d t} = \frac{1}{2} L^2 \nu \sec^2(2\pi\nu t)
 $$
 
 Finally 
-$$I(t) = \frac{B \cdot L^2 \nu \sec^2(2\pi\nu t)}{2R}$$
+
+$$
+I(t) = \frac{B \cdot L^2 \nu \sec^2(2\pi\nu t)}{2R}
+$$
