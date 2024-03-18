@@ -26,9 +26,3 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
-
-{% for post in site.posts %}
-    {% if post.use_math %}
-        {% include mathjax-custom.html %}
-    {% endif %}
-{% endfor %}
