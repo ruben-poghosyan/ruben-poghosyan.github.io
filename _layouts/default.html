@@ -37,9 +37,11 @@
 
     {% include scripts.html %}
 
-    {% if post.use_math %}
-        {% include mathjax-custom.html %}
-    {% endif %}
+    {% for post in page.posts %}
+        {% if post.use_math %}
+            {% include mathjax-custom.html %}
+        {% endif %}
+    {% endfor %}
 
   </body>
 </html>
