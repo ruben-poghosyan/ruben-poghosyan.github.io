@@ -11,7 +11,7 @@ Let's solve the following physics problem
 
 ![Problem](/assets/images/2024-03-15-latex-demo/problem.png)
 
-We are given $$R = 1m\Omega \:$$, $$L = \text{OA} = 10 \text{cm} \:$$ and the frequency at which the rod rotates is $\nu = 60 \text{Hz}$, we need to find the electric current induced in this circuit denoted as $$I(t)$$
+We are given $$R = 1m\Omega \:$$, $$L = \text{OA} = 10 \text{cm} \:$$ and the frequency at which the rod rotates is $$\nu = 60 \text{Hz}$$, we need to find the electric current induced in this circuit denoted as $$I(t)$$
 
 Let's start by writing the laws for induction, from Faraday's law we have
 
