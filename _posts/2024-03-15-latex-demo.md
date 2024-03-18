@@ -1,6 +1,6 @@
 ---
 title: "Markdown Latex Demonstration"
-use_math: True
+use_math: true
 last_modified_at: 2024-03-18
 categories:
   - blog
