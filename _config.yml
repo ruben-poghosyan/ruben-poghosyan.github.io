@@ -58,14 +58,13 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-analytics
 
 
-jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: G-V42MBF8C5Q          # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
-
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-V42MBF8C5Q"
+    anonymize_ip: false # default
 
 author:
   name   : "Ruben Poghosyan"
