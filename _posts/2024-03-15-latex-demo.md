@@ -5,8 +5,8 @@ last_modified_at: 2024-03-18
 categories:
   - blog
 tags:
-  - crypto
-  - hacking
+  - mathjax
+  - physics
 ---
 Let's solve the following physics problem
 
@@ -40,11 +40,11 @@ S(t) = \frac{1}{2} L^2 \tan(2\pi\nu t)
 $$
 
 $$
-\frac{d S(t)}{d t} = \frac{1}{2} L^2 \nu \sec^2(2\pi\nu t)
+\frac{d S(t)}{d t} = \frac{1}{2} L^2 2\pi \nu \sec^2(2\pi\nu t)
 $$
 
 Finally 
 
 $$
-I(t) = \frac{B \cdot L^2 \nu \sec^2(2\pi\nu t)}{2R}
+I(t) = \frac{B \cdot L^2 \pi \nu \sec^2(2\pi\nu t)}{R}
 $$
