@@ -1,9 +1,9 @@
 ---
-title: "Markdown Latex Demonstration"
+title: "MathJax Demonstration"
 use_math: true
 last_modified_at: 2024-03-18
 categories:
-  - blog
+  - General
 tags:
   - mathjax
   - physics

@@ -1,7 +1,7 @@
 ---
 title: "Unveiling the Rise of Cryptocurrency Scams: How AI and Deceptive Tactics Target Tech-Savvy Individuals"
 categories:
-  - blog
+  - General
 tags:
   - crypto
   - hacking
